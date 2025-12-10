@@ -1,0 +1,47 @@
+Built-in decorators in Python are pre-defined decorators provided by the Python language, 
+mainly used to modify the behavior of classes and functions easily without writing your own decorator logic from scratch.
+
+What are built-in decorators?
+They are special decorators that come with Python so you can use them directly for common tasks like:
+
+Modifying method behavior in classes.
+
+Access control to methods.
+
+Managing attributes of functions and classes.
+
+The most commonly used built-in decorators:
+1. @staticmethod
+2. @classmethod 
+3. @property
+
+1. @staticmethod
+
+Defines a method that belongs to a class but doesn't use the class (cls) or instance (self) inside it.
+
+Can be called on the class itself without creating an object.
+
+2. @classmethod
+Defines a method that works with the class as an object (receives cls), not with instance objects.
+
+Can modify class state shared across all instances.
+
+
+3. @property
+
+Turns a method into a "getter" for a managed attribute, allowing you to access it like a regular attribute but with a method behind.
+
+Useful for computed or protected attributes.
+
+
+
+Why use built-in decorators?
+They provide a clean, readable way to modify class behavior.
+
+They reduce boilerplate code.
+
+They enhance code organization and enforce good design principles.
+
+Summary:
+Built-in decorators are ready-to-use Python decorators (@staticmethod, @classmethod, @property, etc.) that 
+help manage class methods and attributes effectively, improving clarity, reusability, and encapsulation in your code.

@@ -1,0 +1,9 @@
+# @property
+# Allows defining a method to be accessed like an attribute or object.
+# Used for computed or controlled attributes with optional setters and deleters.
+
+# Summary:
+# Static methods: Utility functions inside the class namespace, no access to object/class state.
+# Class methods: Operate on the class itself, get cls automatically.
+# Properties: Make method calls look like attribute accesses for cleaner APIs and encapsulation.
+# This helps organize and control how data and functionality are accessed and modified within classes
