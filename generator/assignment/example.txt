@@ -1,0 +1,9 @@
+Hello
+Here, integers() yields numbers from 1 to 5, 
+squared() squares each incoming number, and negated() 
+negates each squared number. 
+The pipeline chains these steps seamlessly.
+I am happy
+You are good
+YOU are beautiful
+Life is excellent

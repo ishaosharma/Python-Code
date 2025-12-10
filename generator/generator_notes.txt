@@ -1,0 +1,19 @@
+What are Generators?
+- Generators are special functions that return an iterator object.
+- They use the yield keyword instead of return, allowing them to pause execution and resume later while maintaining their state.
+ 
+Key Concepts:
+- Lazy Evaluation: Values are generated on-demand, not all at once
+-  Memory Efficiency: Only one item exists in memory at a time, ideal for large datasets
+- Infinite Sequences: Can represent infinite streams since values are generated as needed -
+- Generator Expressions: Similar to list comprehensions but with parentheses ()  
+- Pipelining: Chain multiple generators for efficient data processing
+
+Benefits of Generators
+=Lazy Evaluation: Generate values only when needed.
+=Reduced Memory Usage: No need to store entire sequences.
+=Simpler Code: Avoids the complexity of creating iterator classes.
+
+Differences from Return:
+1. yield pauses the function and preserves its state for subsequent calls.
+2. return exits the function immediately and returns a single value.
